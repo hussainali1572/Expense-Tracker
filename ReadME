@@ -1,0 +1,76 @@
+💸 Expense Tracker
+A command-line based personal expense tracker written in C++. This program lets users record, view, sort, search, and delete expense entries, complete with persistent storage using CSV files.
+
+✨ Features
+🔐 Admin login with hidden password input
+
+➕ Add new expenses (with duplicate check)
+
+📋 View all expenses
+
+🔍 Search by category
+
+📈 Sort by amount using merge sort
+
+🎯 Binary search for a specific amount
+
+❌ Delete specific expenses
+
+🧾 Persistent storage via CSV file
+
+💵 Calculate total spending
+
+🌐 Cross-platform screen clear support
+
+🧱 Technologies Used
+C++ Standard Library
+
+File I/O (fstream)
+
+Data Structures: Linked List, Hash Map (unordered_map)
+
+Sorting Algorithm: Merge Sort
+
+Searching Algorithm: Binary Search
+
+📁 Files
+
+ExpenseTracker.cpp         # Main C++ source code
+expenses.csv        # File for storing expense records
+
+
+🧑‍💼 Admin Credentials
+Username: admin
+
+Password: 1234
+
+(Toggle password visibility with the Tab key.)
+
+📌 Sample Usage
+Expense Tracker Menu
+1. Add Expense
+2. Display Expenses
+3. Search by Category
+...
+8. Exit
+
+⚠️ Limitations
+Single-user (admin only)
+
+No encryption for saved data
+
+In-memory data lost on crash before saving
+
+Not suitable for high-frequency financial tracking
+
+🚀 Future Enhancements
+Multi-user support with roles
+
+Export data in Excel format
+
+Graphical representation of expenses
+
+Integration with banking APIs
+
+Monthly budget tracking
+
